@@ -10,3 +10,6 @@
 [submodule "lvl_19/forgefile/lib/ds-test"]
 	path = lvl_19/forgefile/lib/ds-test
 	url = https://github.com/dapphub/ds-test
+[submodule "lvl_19/forge/lib/ds-test"]
+	path = lvl_19/forge/lib/ds-test
+	url = https://github.com/dapphub/ds-test
