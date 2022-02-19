@@ -16,3 +16,6 @@
 [submodule "lvl_19/forge/lib/openzeppelin-contracts"]
 	path = lvl_19/forge/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "lvl_19/forge/lib/solmate"]
+	path = lvl_19/forge/lib/solmate
+	url = https://github.com/Rari-Capital/solmate
