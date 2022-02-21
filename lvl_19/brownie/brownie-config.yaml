@@ -1,0 +1,15 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@2.5.1
+  - smartcontractkit/chainlink-brownie-contracts@0.3.1
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@2.5.1'
+      - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.3.1'
+      - '@solmate=./solmate'
+networks:
+  default: rinkeby
+  
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
