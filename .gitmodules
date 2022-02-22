@@ -19,3 +19,6 @@
 [submodule "lvl_19/forge/lib/solmate"]
 	path = lvl_19/forge/lib/solmate
 	url = https://github.com/Rari-Capital/solmate
+[submodule "lvl_20/forge/lib/ds-test"]
+	path = lvl_20/forge/lib/ds-test
+	url = https://github.com/dapphub/ds-test
