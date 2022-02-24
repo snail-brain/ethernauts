@@ -1,4 +1,4 @@
-from brownie import Contract, GatekeeperOne, OpenGate, GatekeeperOneTest
+from brownie import Contract, GatekeeperOne, OpenGate
 from scripts.helpful_scripts import *
 from web3 import Web3
 
@@ -10,8 +10,10 @@ gate = Contract.from_abi(
 open = OpenGate.deploy({"from": account})
 # open = OpenGate[-1]
 
+tx = open.open({"from": account})
+tx.wait(1)
+print(gate.entrant())
+
 
 def main():
-    tx = open.open({"from": account})
-    tx.wait(1)
-    print(gate.entrant())
+    pass
